@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>clase1-2-23</title>
+    <meta charset="UTF-8">
+    <meta name="title" content="clase1-2-23">
+    <link rel="stylesheet" href="estilo/css/bootstrap.min.css">
+    <script src="estilo/js/bootstrap.min.js"></script>
+    <meta name="description" content="Descripción de la WEB">
+</head>
+
+<body>
+
+    <!--MENU-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">William</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="INICIO" href="#">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Acerca de Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--FIN MENU-->
+
+    <!--Carusel Imagen-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/5.png" class="d-block w-100" alt="portada1">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/2.png" class="d-block w-100" alt="portada2">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/3.png" class="d-block w-100" alt="portada3">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/4.jpg" class="d-block w-100" alt="portada4">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+    <!--Fin Carusel Imagen-->
+
+    <hr>
+    <div class="container alert alert-success text-center">
+        <h1>Listado de series y peliculas</h1>
+        <h2>by William Hernandez</h2>
+    </div>
+    <hr>
+
+    <div class="card-group">
+        <div class="card">
+            <img src="imagenes/opdrag.jpg" class="card-img-top" alt="portada">
+            <div class="card-body">
+                <h5 class="card-title">Operacion Dragon</h5>
+                <p class="card-text">Pelicula de Accion.</p>
+                <p class="card-text">
+                    <small class="text-muted">
+                        <a href="pagina1.html">Ir a Pagina 1<a/>
+                    </small></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/robocop.jpg" class="card-img-top" alt="portada">
+            <div class="card-body">
+                <h5 class="card-title">Robocop</h5>
+                <p class="card-text">Pelicula de Accion.</p>
+                <p class="card-text">
+                    <small class="text-muted">
+                        <a href="pagina2.html">Ir a Pagina 2<a/>
+                    </small></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <a href="libros/DOC/La_Ciudad_de_los_Tisicos-Abraham_Valdelomar.pdf">La Ciudad de los Tisicos - Abraham Valdelomar, HAZ CLICK PARA VERLO Y DESCARGAR</a>
+
+    <!-- Aqui podemos agregar comentarios -->
+    <!-- uso de la etiqueta A -->
+
+    <a href="pagina1.html" target="_blank">
+        <h2>Operación dragón</h2>
+    </a>
+    <a href="pagina2.html">
+        <h3>Robocop</h3>
+    </a>
+    <a href="pagina3.html">
+        <h4>1997: Rescate en Nueva York</h4>
+    </a>
+
+    <hr>
+
+    <h1>Literatura Favorita</h1>
+    <h5>by William Hernandez</h5>
+
+    <ul>
+        <li><a href="#ancla1">Don Quijote</a></li>
+        <li><a href="#ancla2">Ana Karenina</a></li>
+        <li><a href="#ancla3">El Extranjero</a></li>
+    </ul>
+
+    <a href="pagina4.html">
+        <h2>Don Quijote</h2>
+    </a>
+    <a href="pagina5.html">
+        <h3>Ana Karenina</h3>
+    </a>
+    <a href="pagina6.html">
+        <h4>El Extranjero</h4>
+    </a>
+</body>
+
+</html>
